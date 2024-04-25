@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+.Titulo{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.contenedor p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contenedor input{
+    font-size: 20px;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.contenedor button{
+    font-size: 20px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.temporizador{
+    text-align: center;
+    font-size: 50px;
+}

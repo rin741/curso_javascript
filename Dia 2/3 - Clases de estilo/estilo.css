@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+}
+
+.comun{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.especial{
+    background-color: khaki;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}

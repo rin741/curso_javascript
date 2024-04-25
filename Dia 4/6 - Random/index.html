@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="crearAleatorio()">dame un aleatorio</button>
+    <h2>Numero aleatorio: <span id="textoAleatorio">---</span></h2>
+
+    <script>
+        let elementoAleatorio = document.getElementById("textoAleatorio")
+
+        function crearAleatorio(){
+            elementoAleatorio.textContent = Math.floor(Math.random()* 10);
+        }
+    </script>
+    
+</body>
+</html>

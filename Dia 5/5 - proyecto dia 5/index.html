@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bienvenido al cine</h2>
+
+    <p>porfavor ingrese su edad</p>
+    <input id="edadCliente" type="number" min="1" max="99">
+    <p>Escoja el genero que desea ver</p>
+    <button onclick="recomendar('comedia')">Comedia</button>
+    <button onclick="recomendar('drama')">Drama</button>
+    <button onclick="recomendar('musical')">Musical</button>
+    <button onclick="recomendar('crimen')">Crimen</button>
+    <h3>Nuestra recomendacion</h3>
+    <h2 id="recomendacion"></h2>
+</body>
+</html>

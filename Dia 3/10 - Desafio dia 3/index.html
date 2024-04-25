@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="Titulo">Cuestionario</h1>
+
+    <div class="contenedor">
+        <p>cual es el numero PI </p>
+        <input type="text" id="respuesta1">
+        <br>
+        <p>Cuanto es 3 + 5</p>
+        <input type="text" name="" id="respuesta2">
+        <br>
+        <p>Cuanto es 10 + 10</p>
+        <input type="text" name="" id="respuesta3">
+        <br>
+        <br>
+
+            <button id="comenzarReloj" onclick=comenzar()>iniciar</button>
+            <button id="enviar" onclick=enviarDatos()>Enviar</button>
+            <button id="reiniciar" onClick="window.location.reload(true)">reiniciar</button>
+    </div>
+
+    <h2 class="temporizador" id="textoTemporizador">00</h2>
+    
+</body>
+</html>
